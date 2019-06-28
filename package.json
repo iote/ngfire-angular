@@ -1,0 +1,35 @@
+{
+  "name": "ngfire-angular",
+  "version": "1.0.0",
+  "description": "Base Components and Abstractions that enable to communicate effectively between angular and firebase.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elewa-company/ngfire-angular.git"
+  },
+  "dependencies": {
+    "ngfire-shared": "^1.0.8",
+    "ngfire-firestore-query-builder": "^1.0.10",
+    "@angular/common": "^8.0.3",
+    "@angular/compiler": "^8.0.3",
+    "@angular/core": "^8.0.3",
+    "@angular/fire": "^5.2.1",
+    "@angular/platform-browser": "^8.0.3",
+    "@angular/platform-browser-dynamic": "^8.0.3",
+    "@angular/router": "^8.0.3",
+    "firebase": "^6.2.4",
+    "rxjs": "^6.5.2",
+    "zone.js": "0.9.1"
+  },
+  "files": [
+    "dist",
+    "index.ts"
+  ],
+  "author": "JRosseel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elewa-company/ngfire-angular/issues"
+  },
+  "homepage": "https://github.com/elewa-company/ngfire-angular"
+}
