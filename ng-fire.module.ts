@@ -6,14 +6,13 @@ import { DataService } from './data/services/data.service';
 import { BackendService } from './backend/backend.service';
 
 /**
- * Core Module
+ * NgFire Module
  * 
  * Contains: Interactions with backend, Authentication.
- * Application Specific (Firebase application specific actually).
  */
 @NgModule({
   imports: [],
   providers: [UserService, AuthService, DataService, BackendService],
   exports: []
 })
-export class CoreModule { }
+export class NgFireModule { }
